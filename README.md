@@ -13,6 +13,6 @@ Startup arguments as folows ( change locations to .jar files below as appropriat
 
 -javaagent:./opentelemetry-auto-0.2.2.jar
 -Dota.exporter.jar=./opentelemetry-auto-exporters-jaeger-0.2.2.jar  
--Dota.exporter.jaeger.endpoint=192.168.255.154:14250
+-Dota.exporter.jaeger.endpoint=<YOUR_SMART_AGENT_IP>:14250
 -Dota.exporter.jaeger.service.name=TestOpenTelemetry
 -Dota.trace.methods=agents.tests.OpenTelemetryTestApm[total,start,countIt]
